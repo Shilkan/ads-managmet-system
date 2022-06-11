@@ -52,7 +52,7 @@ dependencies {
     //Unity
 //    implementation project(path: ':unity-ads')
 //    implementation project(path: ':unity-ads.aar')
-    implementation files('unity-ads.aar')
+    implementation files('libs/unity-ads.aar')
 
     //FaceBook
     implementation 'com.facebook.android:audience-network-sdk:6.4.0'
