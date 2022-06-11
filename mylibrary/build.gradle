@@ -32,4 +32,39 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //multi dex
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //init ui
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    // google
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation 'com.google.android.gms:play-services-ads:20.3.0'
+
+    // mobub
+    implementation('com.mopub:mopub-sdk:5.17.0@aar') {
+        transitive = true
+    }
+
+    //Unity
+//    implementation project(path: ':unity-ads')
+//    implementation project(path: ':unity-ads.aar')
+    implementation files('unity-ads.aar')
+
+    //FaceBook
+    implementation 'com.facebook.android:audience-network-sdk:6.4.0'
+
+    //Applovin
+    implementation 'com.applovin:applovin-sdk:+'
+
+    //mediation
+    //mopup mediation
+    implementation 'com.mopub.mediation:facebookaudiencenetwork:6.4.0.0'
+
+    //Applovin mediation
+    implementation 'com.applovin.mediation:facebook-adapter:6.11.0.2'
+
 }
