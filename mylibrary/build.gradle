@@ -29,6 +29,7 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
+    implementation files('E:\\Android\\Product\\AdsManagmetSystem\\mylibrary\\libs\\unity-ads.aar')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -52,7 +53,7 @@ dependencies {
     //Unity
 //    implementation project(path: ':unity-ads')
 //    implementation project(path: ':unity-ads.aar')
-    implementation files('libs/unity-ads.aar')
+//    implementation files('libs/unity-ads.aar')
 
     //FaceBook
     implementation 'com.facebook.android:audience-network-sdk:6.4.0'
